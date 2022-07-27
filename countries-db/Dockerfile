@@ -15,6 +15,6 @@ WORKDIR /initdb
 RUN cd /initdb
 
 RUN wget https://raw.githubusercontent.com/mattddowney/compose-postgrest/master/initdb/world.sql
-RUN wget https://raw.githubusercontent.com/mattddowney/compose-postgrest/master/initdb/create-anon-role.sh
+RUN wget https://raw.githubusercontent.com/leqgarcia/PG-REST-Stack/main/countries-db/initdb/admin_tasks.sql
 
 ENV PYTHONPATH=/usr/lib/python3.9
