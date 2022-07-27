@@ -1,7 +1,7 @@
 FROM postgres:14
 
 RUN apt update -y
-RUN apt install python3 python3-pip postgresql-plpython3-11 wget git
+RUN apt install python3 python3-pip postgresql-plpython3-11 wget git -y
 
 WORKDIR /initdb
 
